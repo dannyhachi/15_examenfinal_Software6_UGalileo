@@ -209,7 +209,7 @@ main {
 .controls {
 	display: grid;
 	gap: 12px;
-	grid-template-columns: 1fr;
+	grid-template-columns: 1;
 	margin-top: 14px;
 }
 
@@ -298,11 +298,11 @@ main .btn-ghost {
 .gallery {
 	display: grid;
 	gap: 12px;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(2, 1);
 }
 .tile {
 	border-radius: 14px;
-	border: 1px solid var(--line);
+	border: 1px solid var;
 	overflow: hidden;
 	background: #fff;
 }
@@ -314,12 +314,12 @@ main .btn-ghost {
 }
 .tile .cap {
 	padding: 10px 12px;
-	color: var(--muted);
+	color: var;
 	font-size: 13px;
 }
 
 .refs { margin: 0; padding-left: 18px; }
-.hint { color: var(--muted); margin: 10px 0 0; font-size: 13px; }
+.hint { color: var; margin: 10px 0 0; font-size: 13px; }
 
 .gov-footer {
 	background: #0b1220;
